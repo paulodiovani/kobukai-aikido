@@ -8,10 +8,10 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Feeling Responsive'
+title: 'Kobukai'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'Escolas de Aikido'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
@@ -39,12 +39,12 @@ improve_content: https://github.com/Phlow/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: '/images/'
+# urlimg: '/images/'
 # urlimg: 'https://kobukai-aikido.github.io/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "assets/media/logo.png"
 
 # Plugins
 plugins:
