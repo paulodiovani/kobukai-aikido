@@ -263,7 +263,7 @@ img {
   transform: translate(-50%, -50%);
   width: 60%;
   max-width: 600px;
-  opacity: 0.2;
+  opacity: 0.4;
   z-index: 0;
   filter: grayscale(100%);
 }
@@ -643,6 +643,41 @@ img {
 
 .footer-bottom p {
   margin: 0;
+}
+
+/* ===== Page Hero ===== */
+.page-hero {
+  background-color: var(--cor-fundo-secundaria);
+  background-image: url('../images/capa-aikido.png');
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: calc(var(--espacamento-xl) + 80px) 0 var(--espacamento-xl);
+  margin-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--cor-fundo) 0%, rgba(26,26,46,0.85) 60%, transparent 100%);
+  z-index: 0;
+}
+
+.page-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero-title {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* ===== Page Content ===== */
