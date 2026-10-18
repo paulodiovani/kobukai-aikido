@@ -669,12 +669,13 @@ img {
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
-  width: 66%;
+  right: max(0px, calc((100vw - var(--max-largura)) / 2));
+  width: 100%;
+  max-width: var(--max-largura);
   height: 100%;
   background-image: url('../images/capa-aikido.png');
-  background-size: auto 200%;
-  background-position: center 40%;
+  background-size: auto 175%;
+  background-position: right 40%;
   background-repeat: no-repeat;
   opacity: 0.3;
   z-index: 0;
