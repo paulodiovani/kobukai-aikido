@@ -113,6 +113,19 @@ img {
 
 .site-logo {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.logo-img {
+  height: 45px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.logo-text-group {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -126,9 +139,9 @@ img {
 }
 
 .logo-subtitle {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   color: var(--color-accent);
-  letter-spacing: 2px;
+  letter-spacing: 1.3px;
   text-transform: uppercase;
 }
 
