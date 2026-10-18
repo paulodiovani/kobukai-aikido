@@ -9,6 +9,16 @@ permalink: /contato/
   para tirar dúvidas sobre treinos, graduações e eventos.
 </p>
 
+<div class="gallery-grid">
+  <!-- Fotos da equipe/dojo principal serão adicionadas aqui.
+       Exemplo:
+       <div class="gallery-item">
+         <img src="/assets/images/dojo-principal.jpg" alt="Dojo Principal">
+         <p class="gallery-caption">Dojo Principal</p>
+       </div>
+  -->
+</div>
+
 <div class="contact-info">
   <div class="contact-item">
     <h3>Informações Gerais</h3>

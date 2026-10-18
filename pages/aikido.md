@@ -7,6 +7,7 @@ permalink: /aikido/
 <h2>Galeria de Fotos</h2>
 
 <div class="gallery-grid">
+    <!-- Galeria de fotos do Aikido -->
     <!-- Adicione suas fotos aqui.
          Exemplo:
          <div class="gallery-item">
@@ -14,6 +15,14 @@ permalink: /aikido/
            <p class="gallery-caption">Legenda da foto</p>
          </div>
     -->
+</div>
+
+<div class="gallery-grid" style="margin-top:2rem;">
+    <!-- Foto do fundador Morihei Ueshiba -->
+    <div class="gallery-item">
+      <img src="{{ '/assets/images/morihei-ueshiba.jpg' | relative_url }}" alt="Morihei Ueshiba - Fundador do Aikido">
+      <p class="gallery-caption">Morihei Ueshiba (1883-1969) - Fundador do Aikido</p>
+    </div>
 </div>
 
 <h2>A Origem</h2>

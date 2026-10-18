@@ -28,24 +28,15 @@ permalink: /dojos/
 
     {% if dojo.senseis.size > 0 %}
     <div class="dojo-sensei">
-      <strong>Sensei{{ dojo.senseis.size | pluralize: "", "s" }}:</strong>
+      <strong>{% if dojo.senseis.size > 1 %}Senseis{% else %}Sensei{% endif %}:</strong>
       {% for sensei in dojo.senseis %}
         <p>{{ sensei.nome }}{% if sensei.graduacao %} — {{ sensei.graduacao }}{% endif %}</p>
       {% endfor %}
     </div>
     {% endif %}
 
-    {% if dojo.endereco and dojo.endereco != "" and dojo.endereco != "A definir" %}
+    {% if dojo.endereco and dojo.endereco != "" %}
     <p class="dojo-info"><strong>Endereço:</strong> {{ dojo.endereco }}</p>
-    {% endif %}
-
-    {% if dojo.instagram and dojo.instagram != "" %}
-    <p class="dojo-info">
-      <strong>Instagram:</strong>
-      <a href="https://www.instagram.com/{{ dojo.instagram | replace: '@', '' }}/" target="_blank">
-        {{ dojo.instagram }}
-      </a>
-    </p>
     {% endif %}
 
     {% if dojo.telefone and dojo.telefone != "" %}

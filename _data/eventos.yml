@@ -1,33 +1,33 @@
-- nome: "Seminário de Verão"
-  data: "2025-08-01"
-  data_fim: "2025-08-02"
-  local: "Gramado, RS"
-  descricao: "Seminário de férias com Sensei convidado"
+# Eventos da Associação Kobukai de Aikido
+# Para adicionar um evento ao calendário, use o link_calendario.
+# Exemplo de formato Google Calendar:
+# https://calendar.google.com/calendar/render?action=TEMPLATE&text=NOME&dates=DATA_INICIO/DATA_FIM&details=DESCRIÇÃO&location=LOCAL
+# Data no formato: YYYYMMDDTHHMMSSZ (ex: 20250801T140000Z)
+
+- nome: "Seminário de Aikido"
+  data: "2026-03-15"
+  data_fim: "2026-03-15"
+  hora_inicio: "09:00"
+  hora_fim: "17:00"
+  local: "Porto Alegre, RS"
+  descricao: >-
+    Seminário com troca de técnicas e confraternização. Aberto a todos os
+    níveis.
   tipo: "seminario"
   passado: false
   fotos: ""
   videos: ""
-  link_calendario: ""
+  link_calendario: >-
+    https://calendar.google.com/calendar/render?action=TEMPLATE&text=Semin%C3%A1rio%20de%20Aikido&dates=20260315T090000/20260315T170000&details=Semin%C3%A1rio%20com%20troca%20de%20t%C3%A9cnicas%20e%20confraterniza%C3%A7%C3%A3o.&location=Porto%20Alegre%2C%20RS
 
 - nome: "Winter Camp"
   data: "2025-08-01"
   data_fim: "2025-08-02"
   local: "A definir"
-  descricao: "Treinamento intensivo de inverno"
+  descricao: "Treinamento intensivo de inverno da Associação Kobukai."
   tipo: "camp"
   passado: true
-  fotos: >-
-    https://drive.google.com/drive/folders/1-Lkmx5bKogxKuRd_05NJhwGdS3mZ07aS?usp=sharing
-  videos: ""
-  link_calendario: ""
-
-- nome: "Exame de Graduação"
-  data: "2025-12-15"
-  data_fim: "2025-12-15"
-  local: "Porto Alegre, RS"
-  descricao: "Exame para graduação de Kyu e Dan"
-  tipo: "exame"
-  passado: false
   fotos: ""
   videos: ""
+  pagina: "/winter-camp/"
   link_calendario: ""
