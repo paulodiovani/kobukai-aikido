@@ -757,6 +757,21 @@ img {
   color: var(--cor-texto-secundario);
 }
 
+/* ===== Founder Layout ===== */
+.founder-layout {
+  margin: var(--espacamento-md) 0;
+  overflow: hidden;
+}
+
+.founder-photo {
+  float: right;
+  margin: 0 0 var(--espacamento-sm) var(--espacamento-md);
+  width: 260px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--cor-borda);
+}
+
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
   .nav-toggle-label {

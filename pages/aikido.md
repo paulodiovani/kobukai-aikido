@@ -17,14 +17,6 @@ permalink: /aikido/
     -->
 </div>
 
-<div class="gallery-grid" style="margin-top:2rem;">
-    <!-- Foto do fundador Morihei Ueshiba -->
-    <div class="gallery-item">
-      <img src="{{ '/assets/images/morihei-ueshiba.jpg' | relative_url }}" alt="Morihei Ueshiba - Fundador do Aikido">
-      <p class="gallery-caption">Morihei Ueshiba (1883-1969) - Fundador do Aikido</p>
-    </div>
-</div>
-
 <h2>A Origem</h2>
 
 <p>
@@ -45,45 +37,50 @@ permalink: /aikido/
 
 <h2>O Fundador</h2>
 
-<h3>Sensei Morihei Ueshiba</h3>
+<div class="founder-layout">
+  <div>
+    <img src="{{ '/assets/images/morihei-ueshiba.jpg' | relative_url }}" alt="Morihei Ueshiba - Fundador do Aikido" class="founder-photo">
+    <h3>Sensei Morihei Ueshiba</h3>
 
-<p>
-  Morihei Ueshiba nasceu em 14 de dezembro de 1883 em Tanabe, uma pequena
-  vila japonesa de pescadores e camponeses, no seio de uma família bastante
-  religiosa que professava a religião budista Bukyo-Shingon-Shiu. Seu nome
-  "Morihei" significa <strong>"Paz Abundante"</strong>, o que chega a ser
-  profético.
-</p>
+    <p>
+      Morihei Ueshiba nasceu em 14 de dezembro de 1883 em Tanabe, uma pequena
+      vila japonesa de pescadores e camponeses, no seio de uma família bastante
+      religiosa que professava a religião budista Bukyo-Shingon-Shiu. Seu nome
+      "Morihei" significa <strong>"Paz Abundante"</strong>, o que chega a ser
+      profético.
+    </p>
 
-<p>
-  Em 1898, Morihei deixou sua casa e viajou para Tóquio, onde começou a
-  instruir-se em artes marciais, principalmente Yagyu Shinkage Ryu (Estilo
-  de Espada), Hozoin (Estilo de Bastão) e Tenjin Shinyo Ryu (Jujutsu).
-  Aos 20 anos, mesmo com baixa estatura (1,60 m), ingressou no exército,
-  onde seu desempenho era destaque principalmente nas artes de combate,
-  em particular o Yu Ken Jutsu (arte do fuzil com baioneta).
-</p>
+    <p>
+      Em 1898, Morihei deixou sua casa e viajou para Tóquio, onde começou a
+      instruir-se em artes marciais, principalmente Yagyu Shinkage Ryu (Estilo
+      de Espada), Hozoin (Estilo de Bastão) e Tenjin Shinyo Ryu (Jujutsu).
+      Aos 20 anos, mesmo com baixa estatura (1,60 m), ingressou no exército,
+      onde seu desempenho era destaque principalmente nas artes de combate,
+      em particular o Yu Ken Jutsu (arte do fuzil com baioneta).
+    </p>
 
-<p>
-  Aos 25 anos, recebeu o título de Yagyu Ryu JyuJutsu. Em certa época de
-  sua vida, conheceu o Mestre Sokaku Takeda, último representante da família
-  Takeda, detentora do conhecimento relativo ao Daitoryu Aikijujutsu, que foi
-  decisivo para o nascimento futuro do Aikido.
-</p>
+    <p>
+      Aos 25 anos, recebeu o título de Yagyu Ryu JyuJutsu. Em certa época de
+      sua vida, conheceu o Mestre Sokaku Takeda, último representante da família
+      Takeda, detentora do conhecimento relativo ao Daitoryu Aikijujutsu, que foi
+      decisivo para o nascimento futuro do Aikido.
+    </p>
 
-<p>
-  Em 1919, ao passar por Ayabe, Morihei conheceu Onisaburo Degushi, líder
-  da seita Omoto Kyu (que deu origem à Seicho No Ie), inspirada no
-  Xintoísmo. Foi aí que começaram a se estabelecer os fundamentos
-  espirituais e filosóficos do Aikido.
-</p>
+    <p>
+      Em 1919, ao passar por Ayabe, Morihei conheceu Onisaburo Degushi, líder
+      da seita Omoto Kyu (que deu origem à Seicho No Ie), inspirada no
+      Xintoísmo. Foi aí que começaram a se estabelecer os fundamentos
+      espirituais e filosóficos do Aikido.
+    </p>
 
-<p>
-  Em 1927, abriu um Dojo em Tóquio, onde o "Dojo Ueshiba" era frequentado
-  inclusive por altos oficiais da Marinha Japonesa. Em 1931, cresceu tanto
-  que abriu um Dojo permanente em Tóquio, o <strong>Dojo Kobukan</strong> —
-  é dessa época que surgiu o termo <strong>Aikido</strong>.
-</p>
+    <p>
+      Em 1927, abriu um Dojo em Tóquio, onde o "Dojo Ueshiba" era frequentado
+      inclusive por altos oficiais da Marinha Japonesa. Em 1931, cresceu tanto
+      que abriu um Dojo permanente em Tóquio, o <strong>Dojo Kobukan</strong> —
+      é dessa época que surgiu o termo <strong>Aikido</strong>.
+    </p>
+  </div>
+</div>
 
 <h3>O Significado de Aikido</h3>
 
