@@ -153,6 +153,22 @@ permalink: /aikido/
   através do Aikido.
 </p>
 
+<h2>Sansuikai Brasil</h2>
+
+<p>
+  A Associação Kobukai de Aikido é filiada à <strong>Sansuikai Brasil</strong>,
+  organização que reúne dojos de Aikido em todo o país. A Sansuikai Brasil,
+  por sua vez, é afiliada ao <strong>Hombu Dojo</strong> — a Fundação Aikikai
+  sediada em Tóquio, Japão —, preservando a linhagem técnica e espiritual
+  transmitida por O Sensei Morihei Ueshiba.
+</p>
+
+<p>
+  Essa filiação garante que a prática nos dojos Kobukai siga os princípios
+  e as técnicas oficiais do Aikido, mantendo a conexão direta com a sede
+  mundial da arte.
+</p>
+
 <h2>As Graduações</h2>
 
 <p>
