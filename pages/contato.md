@@ -32,15 +32,6 @@ permalink: /contato/
     {% if site.data.contato.email and site.data.contato.email != "" %}
     <p><strong>Email:</strong> <a href="mailto:{{ site.data.contato.email }}">{{ site.data.contato.email }}</a></p>
     {% endif %}
-
-    {% if site.data.contato.instagram and site.data.contato.instagram != "" %}
-    <p>
-      <strong>Instagram:</strong>
-      <a href="https://www.instagram.com/{{ site.data.contato.instagram | replace: '@', '' }}/" target="_blank">
-        {{ site.data.contato.instagram }}
-      </a>
-    </p>
-    {% endif %}
   </div>
 
   <div class="contact-item">
@@ -57,19 +48,9 @@ permalink: /contato/
   <div class="contact-item">
     <h3>Redes Sociais</h3>
     <ul style="list-style:none;padding:0;">
-      <li style="margin-bottom:0.5rem;">
+      <li>
         <a href="https://www.instagram.com/kobukaiaikido/" target="_blank">
           @kobukaiaikido
-        </a>
-      </li>
-      <li style="margin-bottom:0.5rem;">
-        <a href="https://www.instagram.com/aikidocaxiasdosul/" target="_blank">
-          @aikidocaxiasdosul
-        </a>
-      </li>
-      <li style="margin-bottom:0.5rem;">
-        <a href="https://www.instagram.com/saoleopoldokobukai/" target="_blank">
-          @saoleopoldokobukai
         </a>
       </li>
     </ul>
