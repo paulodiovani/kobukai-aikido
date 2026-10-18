@@ -4,19 +4,6 @@ title: "O que é Aikido"
 permalink: /aikido/
 ---
 
-<h2>Galeria de Fotos</h2>
-
-<div class="gallery-grid">
-    <!-- Galeria de fotos do Aikido -->
-    <!-- Adicione suas fotos aqui.
-         Exemplo:
-         <div class="gallery-item">
-           <img src="/assets/images/foto1.jpg" alt="Descrição da foto">
-           <p class="gallery-caption">Legenda da foto</p>
-         </div>
-    -->
-</div>
-
 <h2>A Origem</h2>
 
 <p>
