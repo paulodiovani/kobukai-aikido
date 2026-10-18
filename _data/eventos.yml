@@ -1,0 +1,33 @@
+- nome: "Seminário de Verão"
+  data: "2025-08-01"
+  data_fim: "2025-08-02"
+  local: "Gramado, RS"
+  descricao: "Seminário de férias com Sensei convidado"
+  tipo: "seminario"
+  passado: false
+  fotos: ""
+  videos: ""
+  link_calendario: ""
+
+- nome: "Winter Camp"
+  data: "2025-08-01"
+  data_fim: "2025-08-02"
+  local: "A definir"
+  descricao: "Treinamento intensivo de inverno"
+  tipo: "camp"
+  passado: true
+  fotos: >-
+    https://drive.google.com/drive/folders/1-Lkmx5bKogxKuRd_05NJhwGdS3mZ07aS?usp=sharing
+  videos: ""
+  link_calendario: ""
+
+- nome: "Exame de Graduação"
+  data: "2025-12-15"
+  data_fim: "2025-12-15"
+  local: "Porto Alegre, RS"
+  descricao: "Exame para graduação de Kyu e Dan"
+  tipo: "exame"
+  passado: false
+  fotos: ""
+  videos: ""
+  link_calendario: ""
