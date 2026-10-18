@@ -1,0 +1,58 @@
+---
+layout: page
+title: "Contato"
+permalink: /contato/
+---
+
+<p>
+  Entre em contato com a Associação Kobukai de Aikido. Estamos à disposição
+  para tirar dúvidas sobre treinos, graduações e eventos.
+</p>
+
+<div class="gallery-grid">
+  <!-- Fotos da equipe/dojo principal serão adicionadas aqui.
+       Exemplo:
+       <div class="gallery-item">
+         <img src="/assets/images/dojo-principal.jpg" alt="Dojo Principal">
+         <p class="gallery-caption">Dojo Principal</p>
+       </div>
+  -->
+</div>
+
+<div class="contact-info">
+  <div class="contact-item">
+    <h3>Informações Gerais</h3>
+    <p><strong>Responsável:</strong> {{ site.data.contato.nome }}</p>
+    <p><strong>Cargo:</strong> {{ site.data.contato.cargo }}</p>
+
+    {% if site.data.contato.telefone and site.data.contato.telefone != "" %}
+    <p><strong>Telefone:</strong> {{ site.data.contato.telefone }}</p>
+    {% endif %}
+
+    {% if site.data.contato.email and site.data.contato.email != "" %}
+    <p><strong>Email:</strong> <a href="mailto:{{ site.data.contato.email }}">{{ site.data.contato.email }}</a></p>
+    {% endif %}
+  </div>
+
+  <div class="contact-item">
+    <h3>Onde Treinar</h3>
+    <p>
+      Cada dojo possui seu próprio contato e horários de treinamento.
+      Conheça nossos dojos afiliados e encontre o mais próximo de você.
+    </p>
+    <a href="{{ '/dojos/' | relative_url }}" class="hero-cta" style="margin-top:1rem;display:inline-block;">
+      Ver Dojos
+    </a>
+  </div>
+
+  <div class="contact-item">
+    <h3>Redes Sociais</h3>
+    <ul style="list-style:none;padding:0;">
+      <li>
+        <a href="https://www.instagram.com/kobukaiaikido/" target="_blank">
+          @kobukaiaikido
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <img src="{{ '/assets/images/logo-no-text.png' | relative_url }}" alt="Kobukai Aikido" class="logo-img">
+      <div class="logo-text-group">
+        <span class="logo-text">Kobukai</span>
+        <span class="logo-subtitle">Escolas de Aikido</span>
+      </div>
+    </a>
+    
+    <nav class="main-nav">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      
+      <ul class="nav-list">
+        <li><a href="{{ '/' | relative_url }}">Início</a></li>
+        <li><a href="{{ '/aikido/' | relative_url }}">O que é Aikido</a></li>
+        <li><a href="{{ '/tecnicas/' | relative_url }}">Técnicas</a></li>
+        <li><a href="{{ '/dojos/' | relative_url }}">Onde Treinar</a></li>
+        <li><a href="{{ '/eventos/' | relative_url }}">Eventos</a></li>
+        <li><a href="{{ '/contato/' | relative_url }}">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
