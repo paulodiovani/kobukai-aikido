@@ -7,7 +7,8 @@ permalink: /eventos/
 <p>
   Confira a agenda de seminários, exames e eventos da Associação Kobukai
   de Aikido. Você pode salvar os eventos no seu calendário pessoal
-  (Google Calendar).
+  (Google Calendar). A classificação entre próximos e passados é
+  automática com base na data atual.
 </p>
 
 <div class="gallery-grid">
@@ -20,10 +21,12 @@ permalink: /eventos/
   -->
 </div>
 
+{% assign now = site.time | date: "%Y-%m-%d" %}
+
 <h2>Próximos Eventos</h2>
 
 <div class="events-list">
-  {% assign upcoming_events = site.data.eventos | where: "passado", false %}
+  {% assign upcoming_events = site.data.eventos | where_exp: "evento", "evento.data > now" %}
   {% if upcoming_events.size > 0 %}
     {% for evento in upcoming_events %}
     <div class="event-item">
@@ -70,7 +73,7 @@ permalink: /eventos/
 <h2>Eventos Passados</h2>
 
 <div class="events-list">
-  {% assign past_events = site.data.eventos | where: "passado", true %}
+  {% assign past_events = site.data.eventos | where_exp: "evento", "evento.data <= now" %}
   {% for evento in past_events %}
   <div class="event-item passado">
     <div class="event-header">
