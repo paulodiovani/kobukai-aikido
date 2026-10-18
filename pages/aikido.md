@@ -169,6 +169,35 @@ permalink: /aikido/
   mundial da arte.
 </p>
 
+<h3>Sensei Yoshimitsu Yamada (1938-2023)</h3>
+
+<div class="founder-layout">
+  <div>
+    <!-- Foto do Sensei Yamada será adicionada aqui -->
+    <!-- <img src="{{ '/assets/images/yamada-sensei.jpg' | relative_url }}" alt="Sensei Yoshimitsu Yamada" class="founder-photo"> -->
+    <p>
+      <strong>Yoshimitsu Yamada</strong> foi discípulo direto do fundador do Aikido,
+      Morihei Ueshiba, e fundador da Sansuikai. Iniciou sua prática aos 16 anos
+      no Hombu Dojo em Tóquio, tornando-se um dos mais importantes mestres de
+      Aikido de sua geração.
+    </p>
+
+    <p>
+      Yamada Sensei foi um pioneiro técnico no Aikido e mentor para centenas
+      de praticantes ao redor do mundo. Em 1964, mudou-se para os Estados Unidos,
+      onde dedicou décadas ao ensino e desenvolvimento do Aikido, fundando
+      numerosos dojos e formando uma linhagem de instrutores que continua
+      seu trabalho até hoje.
+    </p>
+
+    <p>
+      A Sansuikai Brasil tem como objetivo continuar o trabalho e preservar
+      o legado técnico e espiritual deixado por Yamada Sensei, mantendo viva
+      a conexão com os ensinamentos originais de O Sensei.
+    </p>
+  </div>
+</div>
+
 <h2>As Graduações</h2>
 
 <p>
