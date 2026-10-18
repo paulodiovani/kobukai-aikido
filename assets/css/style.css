@@ -816,6 +816,10 @@ img {
     bottom: -8px;
   }
 
+  .main-nav {
+    position: static;
+  }
+
   .nav-list {
     position: absolute;
     top: 100%;
@@ -836,28 +840,49 @@ img {
     opacity: 1;
   }
 
+  .hero {
+    min-height: 70vh;
+  }
+
   .hero-title {
-    font-size: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-
-  .page-title {
-    font-size: 2.5rem;
-  }
-
-  h1 {
     font-size: 2rem;
   }
 
-  h2 {
-    font-size: 1.8rem;
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
   }
 
   .hero-image {
-    width: 80%;
+    width: 90%;
+  }
+
+  .page-hero {
+    padding: calc(var(--spacing-lg) + 60px) 0 var(--spacing-lg);
+    min-height: auto;
+  }
+
+  .page-hero::after {
+    background-size: auto 120%;
+  }
+
+  .page-hero-title {
+    font-size: 2rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   .gallery-grid {
