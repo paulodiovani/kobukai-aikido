@@ -101,7 +101,7 @@ class: homepage
 <section class="upcoming-section">
   <div class="container">
     <h2 class="section-title">Próximos Eventos</h2>
-    {% if site.eventos_futuros %}
+    {% if site.eventos_futuros[0] %}
     <ul class="upcoming-list">
       {% for evento in site.eventos_futuros %}
       <li>
