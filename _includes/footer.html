@@ -1,29 +1,26 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-content">
-      <div class="footer-section">
-        <h3>Kobukai Aikido</h3>
-        <p>Tradição, disciplina e harmonia</p>
+      <a href="{{ '/' | relative_url }}" class="footer-logo">
+        <img src="{{ '/assets/images/logo-no-text.png' | relative_url }}" alt="Kobukai Aikido">
+        <span>
+          <span class="footer-logo-text">Kobukai</span>
+          <span class="footer-logo-sub">Escolas de Aikido</span>
+        </span>
+      </a>
+
+      <div class="footer-links">
+        <a href="{{ '/aikido/' | relative_url }}">Sobre o Aikido</a>
+        <a href="{{ '/dojos/' | relative_url }}">Dojos</a>
+        <a href="{{ '/eventos/' | relative_url }}">Eventos</a>
+        <a href="{{ '/contato/' | relative_url }}">Contato</a>
       </div>
-      
-      <div class="footer-section">
-        <h4>Links</h4>
-        <ul>
-          <li><a href="{{ '/aikido/' | relative_url }}">Sobre o Aikido</a></li>
-          <li><a href="{{ '/dojos/' | relative_url }}">Dojos</a></li>
-          <li><a href="{{ '/eventos/' | relative_url }}">Eventos</a></li>
-          <li><a href="{{ '/contato/' | relative_url }}">Contato</a></li>
-        </ul>
-      </div>
-      
-      <div class="footer-section">
-        <h4>Redes Sociais</h4>
-        <ul>
-          <li><a href="https://www.instagram.com/kobukaiaikido/" target="_blank">Instagram</a></li>
-        </ul>
+
+      <div class="footer-links">
+        <a href="https://www.instagram.com/kobukaiaikido/" target="_blank">Instagram</a>
       </div>
     </div>
-    
+
     <div class="footer-bottom">
       <p>&copy; {{ 'now' | date: '%Y' }} Kobukai Aikido. Todos os direitos reservados.</p>
       <p class="footer-dev-notice">Página em desenvolvimento — informações podem estar temporariamente incompletas ou incorretas.</p>
