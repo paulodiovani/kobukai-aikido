@@ -20,7 +20,7 @@ O Aikido é uma arte marcial japonesa fundada por Morihei Ueshiba que busca a ha
 ── assets/
 │   ├── css/style.css    # Estilos do site
 │   └── images/          # Imagens (capa, galerias)
-├── content/             # Fontes de conteúdo (NÃO EDITAR)
+├── source-material/     # Fontes de conteúdo (NÃO EDITAR)
 └── pages/               # Páginas do site
 ```
 

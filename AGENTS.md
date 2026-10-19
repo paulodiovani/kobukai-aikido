@@ -23,14 +23,14 @@ Static website for **Kobukai Aikido**, a martial arts association based in Rio G
 ├── assets/
 │   ├── css/style.css      # All styles (CSS vars in English)
 │   └── images/            # Site images (logos, photos)
-├── content/               #  DO NOT MODIFY — user's source materials
+├── source-material/     #  DO NOT MODIFY — user's source materials
 └── pages/                 # Site pages (aikido, tecnicas, dojos, eventos, contato)
 ```
 
 ## Content Rules
 - All visible content in **Brazilian Portuguese**.
 - Never invent information — use only provided sources (student manual, Wikipedia, Sansuikai website).
-- `content/` folder is read-only. Copy files from there to `assets/` when needed.
+- `source-material/` folder is read-only. Copy files from there to `assets/` when needed.
 
 ## Conventions
 - **Commit messages**: English, single line, imperative mood.
@@ -41,7 +41,7 @@ Static website for **Kobukai Aikido**, a martial arts association based in Rio G
 - **Build**: The user verifies the build themselves. Don't run `jekyll build`.
 
 ## Don'ts
-- Never modify anything in `content/`.
+- Never modify anything in `source-material/`.
 - Never touch environment files: `Session.vim`, `.tool-versions`, `.ruby-version`, `.gitignore`.
 - Never install packages (`pip`, `gem`, `apt`). Use only what's available (ffmpeg for video).
 - Never delete `_site/` or `.jekyll-cache/` — they're gitignored.
