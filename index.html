@@ -64,3 +64,25 @@ class: homepage
     </div>
   </div>
 </section>
+
+<section class="upcoming-section">
+  <div class="container">
+    <h2 class="section-title">Próximos Eventos</h2>
+    {% if site.eventos_futuros %}
+    <ul class="upcoming-list">
+      {% for evento in site.eventos_futuros %}
+      <li>
+        <span class="upcoming-date">{{ evento.data | date: "%d/%m/%Y" }}</span>
+        <span class="upcoming-name">{{ evento.nome }}</span>
+        {% if evento.local %}
+        <span class="upcoming-location">{{ evento.local }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="upcoming-none">Nenhum evento próximo no momento.</p>
+    {% endif %}
+    <a href="{{ '/eventos/' | relative_url }}" class="upcoming-more">Ver todos os eventos &rarr;</a>
+  </div>
+</section>
