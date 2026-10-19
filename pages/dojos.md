@@ -39,6 +39,15 @@ permalink: /dojos/
     <p class="dojo-info"><strong>Endereço:</strong> {{ dojo.endereco }}</p>
     {% endif %}
 
+    {% if dojo.instagram and dojo.instagram != "" %}
+    <p class="dojo-info">
+      <strong>Instagram:</strong>
+      <a href="https://www.instagram.com/{{ dojo.instagram | replace: '@', '' }}/" target="_blank" rel="noopener">
+        {{ dojo.instagram }}
+      </a>
+    </p>
+    {% endif %}
+
     {% if dojo.telefone and dojo.telefone != "" %}
     <p class="dojo-info"><strong>Telefone:</strong> {{ dojo.telefone }}</p>
     {% endif %}
