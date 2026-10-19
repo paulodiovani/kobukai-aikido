@@ -66,7 +66,7 @@ permalink: /eventos/
     </div>
     {% endfor %}
   {% else %}
-    <p>Nenhum evento próximo no momento. Fique atento às nossas redes sociais!</p>
+    <p>Sem próximos eventos agendados.</p>
   {% endif %}
 </div>
 
