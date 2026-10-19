@@ -3,6 +3,10 @@ layout: default
 ---
 
 <div class="page-hero">
+  <div class="page-hero-stage" aria-hidden="true">
+    <img class="page-hero-ring" src="{{ '/assets/images/logo-no-text.png' | relative_url }}" alt="">
+    <img class="page-hero-cover" src="{{ '/assets/images/capa-aikido.png' | relative_url }}" alt="">
+  </div>
   <div class="container">
     {% if page.title %}
     <h1 class="page-hero-title">{{ page.title }}</h1>

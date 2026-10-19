@@ -5,15 +5,24 @@ class: homepage
 ---
 
 <section class="hero">
-  <div class="hero-content">
-    <h1 class="hero-title">Kobukai Aikido</h1>
-    <p class="hero-subtitle">Associação de Escolas de Aikido</p>
-    <p class="hero-description">
-      Tradição, disciplina e harmonia. O Aikido é uma arte marcial japonesa
-      que busca a união com a energia universal, promovendo o desenvolvimento
-      físico, mental e espiritual.
-    </p>
-    <a href="{{ '/aikido/' | relative_url }}" class="hero-cta">Conheça o Aikido</a>
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">Kobukai Aikido</h1>
+      <p class="hero-subtitle">Associação de Escolas de Aikido</p>
+      <p class="hero-description">
+        Tradição, disciplina e harmonia. O Aikido é uma arte marcial japonesa
+        que busca a união com a energia universal, promovendo o desenvolvimento
+        físico, mental e espiritual.
+      </p>
+      <div class="hero-btns">
+        <a href="{{ '/aikido/' | relative_url }}" class="hero-cta">Conheça o Aikido</a>
+        <a href="{{ '/dojos/' | relative_url }}" class="hero-cta secondary">Ver dojos</a>
+      </div>
+    </div>
+    <div class="hero-stage" aria-hidden="true">
+      <img class="hero-stage-bg" src="{{ '/assets/images/logo-no-text.png' | relative_url }}" alt="">
+      <img class="hero-stage-img" src="{{ '/assets/images/capa-aikido.png' | relative_url }}" alt="Kobukai Aikido">
+    </div>
   </div>
 </section>
 
@@ -83,7 +92,7 @@ class: homepage
 <section class="video-section">
   <div class="container">
     <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/V7v3QPgSLNE" title="Demonstração de Aikido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/V7v3QPgSLNE" title="Aikido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="video-caption">Demonstração pelo Sensei Christian Sant'Anna</p>
   </div>
