@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Este website ainda está em desenvolvimento. Algumas informações podem estar incompletas ou desatualizadas.
+
 # Kobukai Aikido
 
 Website da Associação Kobukai de Aikido — escolas de Aikido no Rio Grande do Sul.
