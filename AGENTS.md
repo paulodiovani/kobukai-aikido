@@ -42,7 +42,7 @@ Static website for **Kobukai Aikido**, a martial arts association based in Rio G
 
 ## Don'ts
 - Never modify anything in `source-material/`.
-- Never touch environment files: `Session.vim`, `.tool-versions`, `.ruby-version`, `.gitignore`.
+- Never touch environment files: `Session.vim`, `.ruby-version`, `.gitignore`.
 - Never install packages (`pip`, `gem`, `apt`). Use only what's available (ffmpeg for video).
 - Never delete `_site/` or `.jekyll-cache/` — they're gitignored.
 - Never push to remote.

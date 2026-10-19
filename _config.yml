@@ -24,8 +24,7 @@ exclude:
   - README.md
   - .gitignore
   - .ruby-version
-  - .tool-versions
-  - content
+  - source-material
   - .github
 
 # Defaults
